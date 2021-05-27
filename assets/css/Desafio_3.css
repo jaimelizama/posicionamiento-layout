@@ -1,0 +1,120 @@
+/*Seteo de body con un poco de margen*/
+
+body {
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 0;
+}
+
+/*Bandera de España*/
+
+.spain-flag {
+  height: 250px;
+  width: 400px;
+  border: 1px solid gray;
+}
+.spain-red-rectangle {
+  height: 75px;
+  width: 400px;
+  background-color: red;
+}
+.spain-yellow-rectangle {
+  height: 100px;
+  width: 400px;
+  background-color: yellow;
+}
+
+/*Bandera de Dinamarca*/
+
+.denmark-flag {
+  margin-top: 50px;
+  height: 250px;
+  width: 400px;
+  background: red;
+  position: relative;
+  border: 1px solid gray;
+}
+
+.denmark-row {
+  height: 20px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 115px;
+}
+
+.denmark-column {
+  height: 100%;
+  width: 20px;
+  background: white;
+  position: absolute;
+  left: 115px;
+}
+
+/*Bandera de Emiratos Árabes*/
+
+.ea-flag {
+  margin-top: 50px;
+  height: 250px;
+  width: 400px;
+  padding: 0;
+  border: 1px solid gray;
+}
+
+.ea-column {
+  display: inline-block;
+}
+
+.red {
+  height: 100%;
+  width: 100px;
+  background: red;
+}
+
+.multicolor {
+  height: 100%;
+  width: 300px;
+  background: blue;
+  float: right;
+}
+
+.multicolor__green {
+  width: 100%;
+  height: 33.3%;
+  background: green;
+}
+
+.multicolor__white {
+  width: 100%;
+  height: 33.3%;
+  background: white;
+}
+
+.multicolor__black {
+  width: 100%;
+  height: 33.3%;
+  background: black;
+}
+
+/*Bandera de Japón*/
+
+.japan-flag {
+  margin-top: 50px;
+  background: white;
+  position: relative;
+
+  width: 400px;
+  height: 250px;
+  border: 1px solid #000000;
+}
+
+.japan-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: auto;
+  left: 150px;
+  top: 75px;
+  border-radius: 50%;
+}

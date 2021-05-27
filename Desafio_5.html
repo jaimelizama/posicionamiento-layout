@@ -1,0 +1,38 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Desafío 5</title>
+    <style media="screen" type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .product {
+        left: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+      }
+
+      .product__image {
+        position: absolute; /* para romper la estructura de bloques*/
+        z-index: -1; /*para quedar detras del ribbon*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product">
+      <img
+        src="./assets/images/ejercicio-5_item.jpg"
+        alt="Producto"
+        class="product__image"
+      />
+      <img
+        src="./assets/images/ejercicio-5_ribbon.png"
+        alt="Oferta"
+        class="product__image--ribbon"
+      />
+    </div>
+  </body>
+</html>

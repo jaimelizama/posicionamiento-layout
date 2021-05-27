@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 1 (a)</title>
+    <style media="screen" type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .main {
+        margin: 5px;
+      }
+
+      .cajas {
+        text-align: center; /* Para centrar los elementos en el contenedor*/
+        width: 100%;
+      }
+
+      .box {
+        border: 2px solid #808080;
+        height: 100px;
+        display: inline-block; /* Para que las cajas queden de forma horizontal*/
+        width: 20%; /* Ajuste de Ancho para evitar desbordamiento. Originalmente pedían width de 25% */
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <section class="cajas">
+        <!--Creación de Contenedor para luego alinear las Cajas-->
+        <div class="box">Caja1</div>
+        <div class="box">Caja2</div>
+        <div class="box">Caja3</div>
+        <div class="box">Caja4</div>
+      </section>
+    </section>
+  </body>
+</html>
