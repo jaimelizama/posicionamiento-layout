@@ -70,6 +70,24 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+  .desafio {
+    top: 18%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .botones-fila2 {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .botones-fila3 {
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .btn {
     height: 60px;
   }
@@ -83,6 +101,12 @@ section {
   position: absolute;
   top: 56%;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .alumno {
+    top: 60%;
+  }
 }
 
 .link-github {
