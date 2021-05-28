@@ -75,9 +75,13 @@ section {
   }
 }
 
+.btn {
+  vertical-align: middle;
+}
+
 .alumno {
   position: absolute;
-  top: 54%;
+  top: 56%;
   width: 100%;
 }
 
