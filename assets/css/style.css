@@ -46,8 +46,15 @@ section {
   width: 100%;
 }
 
+.botones-fila3 {
+  position: absolute;
+  top: 46%;
+  width: 100%;
+}
+
 .boton-fila1,
-.boton-fila2 {
+.boton-fila2,
+.boton-fila3 {
   display: inline-block;
   width: 7%;
 }
@@ -55,15 +62,22 @@ section {
 /*Para cambiar el ancho en pantallas pequeñas*/
 @media screen and (max-width: 768px) {
   .boton-fila1,
-  .boton-fila2 {
+  .boton-fila2,
+  .boton-fila3 {
     display: inline-block;
-    width: 15%;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    height: 60px;
   }
 }
 
 .alumno {
   position: absolute;
-  top: 50%;
+  top: 54%;
   width: 100%;
 }
 
